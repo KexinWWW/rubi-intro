@@ -8,4 +8,25 @@
 # end
 
 # Loop through tacos
-# tacos = ["carnitas", "carne asada", "pollo", "pescado"]
+tacos = ["carnitas", "carne asada", "pollo", "pescado", "avocado"]
+
+#index = 0
+#loop do
+    #if index == tacos.count
+  #      break
+  #  end
+  # how .count works: when it goes to the end of the list, it's done  
+  #  puts "#{tacos[index]} tacos!"
+   # index = index + 1
+
+#end
+
+    zebra = tacos [index]
+    puts "#{zebra} tacos!"
+    index = index +1 
+#end
+#没懂下面的 看上面的就行
+for taco in tacos
+    #do somethin
+    puts "#{tacos} tacos!"
+end
